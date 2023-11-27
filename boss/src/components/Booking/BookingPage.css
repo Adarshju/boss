@@ -1,0 +1,126 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: linear-gradient(
+        0deg,
+        rgba(7, 92, 93, 1) 0%,
+        rgba(0, 167, 252, 1) 0%,
+        rgba(17, 184, 204, 1) 14%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form-cover {
+    background: #000;
+    background-image: url(https://img.freepik.com/free-photo/yellow-black-sign-taxi-placed-top-car-night_181624-10624.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70%;
+    max-width: 1400px;
+    height: 650px;
+    margin-left: 60px;
+    margin-top: 40px;
+
+    border-radius: 50px;
+}
+/* align */
+.To-location{
+  position: relative;
+  left: 215px;
+  bottom: 75px;
+  padding: 5px;
+}
+.Name{
+  position: relative;
+  bottom: 80px;
+}
+.Members{
+  position: relative;
+  bottom: 150px;
+  left: 215px;
+}
+.Phone-Number{
+  position: relative;
+  bottom: 150px;
+}
+.Watsapp-Number{
+  position: relative;
+  bottom: 150px;
+}
+.House-Address{
+  position: relative;
+  bottom: 150px;
+}
+
+
+/* align end */
+
+.taxi-booking-form {
+    display: block;
+
+    position: relative;
+    top: 20px;
+    right: 450px;
+    height: 600px;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(216, 216, 216);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: rgb(97, 97, 97);
+    background: radial-gradient(circle, rgba(97, 97, 97, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.taxi-booking-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #dedbdb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    bottom: 120px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.logout{
+  padding-top: 5px;
+}
+.nav-links{
+  
+}
+
